@@ -1,12 +1,20 @@
 <div class="nl-form">
   <form
+    id="nl-form"
     action="https://buttondown.com/api/emails/embed-subscribe/amgc"
     method="post"
   >
     <input type="hidden" name="next" value="{{ "subscribed/" | absURL }}" />
     <input type="text" name="metadata__first_name" placeholder="First name (optional)" autocomplete="given-name" />
     <input type="email" name="email" placeholder="Email address" required autocomplete="email" />
-    <button type="submit">Subscribe to Newsletter</button>
+    <button type="submit" id="nl-submit">Subscribe to Newsletter</button>
   </form>
   <p class="nl-note">Managed by Buttondown · We never share or sell your information · Unsubscribe anytime</p>
 </div>
+<script>
+  document.getElementById('nl-form').addEventListener('submit', function() {
+    var btn = document.getElementById('nl-submit');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="nl-spinner"></span>Subscribing…';
+  });
+</script>

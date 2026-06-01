@@ -415,7 +415,24 @@ nav ul a.nav-pill:hover { background: #b37530; color: #fff; }
   transition: background 0.15s;
 }
 .nl-form button:hover, .nl-form form button:hover { background: #a34420; }
+.nl-form button:disabled, .nl-form form button:disabled { opacity: 0.75; cursor: not-allowed; }
 .nl-note { font-size: 0.7rem; color: rgba(255,255,255,0.28); margin-top: 0.5rem; }
+
+/* newsletter submit spinner */
+.nl-spinner {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  border: 2px solid rgba(255,255,255,0.35);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: nl-spin 0.65s linear infinite;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  position: relative;
+  top: -0.05em;
+}
+@keyframes nl-spin { to { transform: rotate(360deg); } }
 
 /* ── Page hero (interior pages) ── */
 .page-hero {
