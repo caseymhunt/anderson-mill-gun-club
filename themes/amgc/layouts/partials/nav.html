@@ -1,0 +1,12 @@
+<nav>
+  <a class="nav-logo" href="/">
+    <strong>Anderson Mill</strong>&nbsp;Gun Club
+  </a>
+  <ul>
+    {{ range site.Menus.main }}
+    <li>
+      <a href="{{ .URL }}"{{ if .Params.pill }} class="nav-pill"{{ end }}>{{ .Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>

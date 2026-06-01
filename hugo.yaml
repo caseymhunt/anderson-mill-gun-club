@@ -1,0 +1,38 @@
+baseURL: "https://andersonmillgunclub.org/"
+locale: "en-us"
+title: "Anderson Mill Gun Club"
+theme: "amgc"
+
+params:
+  description: "A community firearms club for responsible owners in northwest Austin, TX. All experience levels welcome."
+  location: "Northwest Austin, TX"
+  email: "hello@andersonmillgunclub.org"
+  buttondownURL: "https://buttondown.com/andersonmillgunclub"
+  heroImage: "https://images.pexels.com/photos/6090798/pexels-photo-6090798.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  heroImageCredit: "Tima Miroshnichenko / Pexels"
+  heroImageCreditURL: "https://www.pexels.com/photo/6090798/"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Get Involved
+      url: /get-involved/
+      weight: 2
+    - name: Safety
+      url: /safety/
+      weight: 3
+    - name: Contact
+      url: /contact/
+      weight: 4
+    - name: Newsletter
+      url: /newsletter/
+      weight: 5
+      params:
+        pill: true

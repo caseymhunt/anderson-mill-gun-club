@@ -1,0 +1,112 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="hero-photo" style="background-image: url('{{ site.Params.heroImage }}')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-accent-bar"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">{{ site.Params.location }}</p>
+    <h1>A place to learn,<br>practice, and <em>belong.</em></h1>
+    <p class="hero-sub">Anderson Mill Gun Club is a small, independent community of responsible firearms owners. Whether you're just getting started or have years of experience — you're welcome here.</p>
+    <div class="hero-btns">
+      <a href="/get-involved/" class="btn-rust">Get Involved</a>
+      <a href="/about/" class="btn-ghost-light">Learn More</a>
+    </div>
+  </div>
+  <p class="hero-credit">Photo: <a href="{{ site.Params.heroImageCreditURL }}" target="_blank" rel="noopener">{{ site.Params.heroImageCredit }}</a></p>
+</section>
+
+<div class="strip">
+  <div class="strip-item">Open to all experience levels</div>
+  <div class="strip-item">No dues or fees</div>
+  <div class="strip-item">Safety-first community</div>
+  <div class="strip-item">Northwest Austin</div>
+</div>
+
+<div class="about-section">
+  <div class="about-inner">
+    <div class="about-text">
+      <p class="section-label">Who We Are</p>
+      <h2>We're your<br><em>neighbors.</em></h2>
+      <div class="rule"></div>
+      <p>Anderson Mill Gun Club is a volunteer-run organization for people in the northwest Austin area who care about responsible firearm ownership. We come together to practice, learn, and look out for one another.</p>
+      <p><strong>No gatekeeping. No agenda.</strong> Our only ask is a genuine commitment to safety and mutual respect. Events are shared privately with vetted members — the newsletter is your first step in.</p>
+    </div>
+    <div class="about-visual">
+      <div class="value-item">
+        <div class="value-icon">🛡️</div>
+        <div class="value-text">
+          <h4>Safety First, Always</h4>
+          <p>Every event follows strict range safety protocols. We take this seriously, so everyone goes home safe.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">🤝</div>
+        <div class="value-text">
+          <h4>Everyone's Welcome</h4>
+          <p>First-timer or seasoned shooter — if you're respectful and safety-minded, this is your club too.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">🏘️</div>
+        <div class="value-text">
+          <h4>Community-Run</h4>
+          <p>No paid staff, no corporate backing. Just neighbors helping neighbors get better at something they care about.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-icon">🔒</div>
+        <div class="value-text">
+          <h4>Vetted &amp; Private</h4>
+          <p>Event details go only to members who've gone through our simple vetting process.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="involvement-section">
+  <div class="involvement-inner">
+    <p class="section-label">Get Involved</p>
+    <h2 class="lora">How to participate</h2>
+    <div class="path-cards">
+      <div class="path-card">
+        <div class="path-num">01 / Member</div>
+        <div class="path-emoji">🎯</div>
+        <h3>Join as a Member</h3>
+        <p>Get access to private event details and range schedules. Start by subscribing to our newsletter — we'll reach out from there.</p>
+        <a href="/get-involved/" class="path-link">Start here</a>
+      </div>
+      <div class="path-card">
+        <div class="path-num">02 / Volunteer</div>
+        <div class="path-emoji">🤲</div>
+        <h3>Volunteer</h3>
+        <p>Help organize events, assist with range safety, or contribute your skills to club operations. No experience required — just willingness.</p>
+        <a href="/get-involved/#volunteer" class="path-link">Get in touch</a>
+      </div>
+      <div class="path-card">
+        <div class="path-num">03 / Newsletter</div>
+        <div class="path-emoji">📬</div>
+        <h3>Follow Along</h3>
+        <p>Not ready to commit? Subscribe to our newsletter and stay connected at your own pace. We'll be here when you're ready.</p>
+        <a href="/newsletter/" class="path-link">Subscribe</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="newsletter-section">
+  <div class="newsletter-texture"></div>
+  <div class="newsletter-inner">
+    <div class="nl-left">
+      <p class="section-label">Stay Connected</p>
+      <h2 class="lora">One email.<br><em>Real community.</em></h2>
+      <p>Club news, safety topics, and a way to get involved — nothing more. Unsubscribe anytime, no questions asked.</p>
+    </div>
+    <div>
+      {{ partial "newsletter-form.html" . }}
+    </div>
+  </div>
+</div>
+
+{{ end }}

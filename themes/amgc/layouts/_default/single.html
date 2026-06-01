@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <p class="section-label">{{ .Params.label | default "" }}</p>
+    <h1 class="lora">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<div class="page-body">
+  <div class="page-body-inner">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
