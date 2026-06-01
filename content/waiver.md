@@ -2,6 +2,7 @@
 title: "Participant Waiver"
 label: "Safety & Legal"
 subtitle: "All participants must sign this waiver before attending any Club event."
+draft: true
 ---
 
 ## Before You Participate
