@@ -12,6 +12,6 @@ If you're interested in becoming a member or volunteering, just reply to your fi
 
 <br><br>
 
-<a href="/" class="btn-rust">Back to Home</a>
+<a href="../" class="btn-rust">Back to Home</a>
 
 </div>
