@@ -2,6 +2,7 @@
 title: "Newsletter"
 label: "Stay Connected"
 subtitle: "One email at a time. Club news, upcoming events, and how to get more involved — nothing else."
+layout: "newsletter"
 ---
 
 <div class="nl-page">
@@ -15,6 +16,6 @@ What to expect:
 
 We send occasionally — not on a fixed schedule, and never more than you'd want. Unsubscribe anytime with one click, no questions asked.
 
-{{ partial "newsletter-form.html" . }}
+<!-- newsletter-form -->
 
 </div>

@@ -12,6 +12,10 @@ params:
   heroImageCredit: "Tima Miroshnichenko / Pexels"
   heroImageCreditURL: "https://www.pexels.com/photo/6090798/"
 
+disableKinds:
+  - taxonomy
+  - term
+
 markup:
   goldmark:
     renderer:

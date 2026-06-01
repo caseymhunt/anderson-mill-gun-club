@@ -3,7 +3,7 @@ title: "Privacy Policy"
 label: "Legal"
 ---
 
-*Last updated: 2024*
+*Last updated: 2026*
 
 Anderson Mill Gun Club ("we," "us") operates this website. We collect only the information you voluntarily provide.
 

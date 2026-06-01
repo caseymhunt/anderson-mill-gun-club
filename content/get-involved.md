@@ -29,4 +29,4 @@ First-timers are always welcome at events. Experienced members are happy to help
 
 ## Questions?
 
-If you'd like to ask something before signing up, use the [contact form](/contact/) or email us directly at [{{ site.Params.email }}](mailto:{{ site.Params.email }}).
+If you'd like to ask something before signing up, use the [contact form](/contact/) or email us directly at [andersonmillgunclub@gmail.com](mailto:andersonmillgunclub@gmail.com).

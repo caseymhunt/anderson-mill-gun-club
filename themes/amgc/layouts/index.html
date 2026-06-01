@@ -9,8 +9,8 @@
     <h1>A place to learn,<br>practice, and <em>belong.</em></h1>
     <p class="hero-sub">Anderson Mill Gun Club is a small, independent community of responsible firearms owners. Whether you're just getting started or have years of experience — you're welcome here.</p>
     <div class="hero-btns">
-      <a href="/get-involved/" class="btn-rust">Get Involved</a>
-      <a href="/about/" class="btn-ghost-light">Learn More</a>
+      <a href="{{ "get-involved/" | relURL }}" class="btn-rust">Get Involved</a>
+      <a href="{{ "about/" | relURL }}" class="btn-ghost-light">Learn More</a>
     </div>
   </div>
   <p class="hero-credit">Photo: <a href="{{ site.Params.heroImageCreditURL }}" target="_blank" rel="noopener">{{ site.Params.heroImageCredit }}</a></p>
@@ -75,21 +75,21 @@
         <div class="path-emoji">🎯</div>
         <h3>Join as a Member</h3>
         <p>Get access to private event details and range schedules. Start by subscribing to our newsletter — we'll reach out from there.</p>
-        <a href="/get-involved/" class="path-link">Start here</a>
+        <a href="{{ "get-involved/" | relURL }}" class="path-link">Start here</a>
       </div>
       <div class="path-card">
         <div class="path-num">02 / Volunteer</div>
         <div class="path-emoji">🤲</div>
         <h3>Volunteer</h3>
         <p>Help organize events, assist with range safety, or contribute your skills to club operations. No experience required — just willingness.</p>
-        <a href="/get-involved/#volunteer" class="path-link">Get in touch</a>
+        <a href="{{ "get-involved/" | relURL }}#volunteer" class="path-link">Get in touch</a>
       </div>
       <div class="path-card">
         <div class="path-num">03 / Newsletter</div>
         <div class="path-emoji">📬</div>
         <h3>Follow Along</h3>
         <p>Not ready to commit? Subscribe to our newsletter and stay connected at your own pace. We'll be here when you're ready.</p>
-        <a href="/newsletter/" class="path-link">Subscribe</a>
+        <a href="{{ "newsletter/" | relURL }}" class="path-link">Subscribe</a>
       </div>
     </div>
   </div>
