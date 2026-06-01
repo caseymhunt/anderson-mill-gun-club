@@ -6,7 +6,7 @@ subtitle: "Questions, introductions, or just want to say hello — we'd love to 
 
 Use the form below and we'll get back to you within a few days. If you're ready to join or volunteer, [the Get Involved page](/get-involved/) has more detail on how that works.
 
-<form class="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORMSPREE_ID" method="POST">
+<form class="contact-form" action="https://formspree.io/f/xlgvyjrk" method="POST">
   <div>
     <label for="name">Your Name</label>
     <input type="text" id="name" name="name" placeholder="First and last name" required />
