@@ -494,6 +494,10 @@ nav ul a.nav-pill:hover { background: #b37530; color: #fff; }
 }
 .page-body-inner a { color: var(--rust); }
 .page-body-inner a:hover { color: var(--gold); }
+.page-body-inner .btn-rust,
+.page-body-inner .btn-rust:hover { color: #fff; }
+.page-body-inner .btn-gold,
+.page-body-inner .btn-gold:hover { color: #fff; }
 .page-body-inner hr { border: none; border-top: 1px solid var(--peach); margin: 2.5rem 0; }
 
 /* callout box */
