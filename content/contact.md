@@ -34,6 +34,6 @@ Use the form below and we'll get back to you within a few days. If you're ready 
 
 ---
 
-You can also email us directly: [hello@andersonmillgunclub.org](mailto:hello@andersonmillgunclub.org)
+You can also email us directly: [andersonmillgunclub@gmail.com](mailto:andersonmillgunclub@gmail.com)
 
 We don't have a phone number or physical office — we're a volunteer-run community club.

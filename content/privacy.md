@@ -34,4 +34,4 @@ You may unsubscribe from the newsletter at any time using the unsubscribe link i
 
 ## Contact
 
-Questions about this policy? Email us at [hello@andersonmillgunclub.org](mailto:hello@andersonmillgunclub.org).
+Questions about this policy? Email us at [andersonmillgunclub@gmail.com](mailto:andersonmillgunclub@gmail.com).
